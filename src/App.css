@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(252, 252, 252);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    height:100vh
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loading{
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo-head p{
+    text-transform:capitalize;
+    font-size:18px;
 }
-
-.App-link {
-  color: #61dafb;
+.todo-footer i, .show-todo i, .fa-xmark, .fa-wrench {
+    color:rgb(74, 74, 255);
+    padding:5px;
+    margin:6px;
+    font-size:16px;
+    cursor:pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show{
+    background-color: #fff;
+    border:1px solid rgb(74, 74, 255);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top:7px;
+    padding:11px 11px;
+}
+.show-todo form{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(74, 74, 255);
+    padding:13px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.show-todo input {
+    outline: none;
+    border:none;
+}
+h6{
+    text-transform: capitalize;
+}
+.update-input{
+    outline: none;
+    border:1px solid rgb(74, 74, 255);
+    padding:4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+element.style {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 16, 16)!important;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
