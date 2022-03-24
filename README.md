@@ -1,7 +1,11 @@
 # react-todo-client
 Technology: react, react-hooks, react-modal and bootstrap.<br>
 here you can.<br>
-create(POST)
-read(GET)
-delete(DELETE)
-update(PATCH)(text updatable)
+1. create(POST)
+2. read(GET)
+3. delete(DELETE)
+4. update(PATCH)(text updatable)
+
+
+
+
